@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyWebServiceHelper.h"
+#import "MyCustomClass.h"
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController<WebServiceResponseProtocal,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+{
+    MyWebServiceHelper *helper;
+    UICollectionView *_collectionView;
+   
+}
+
+@property (strong, nonatomic) NSMutableArray *responseArray;
+
+- (void)showAllPressed;
+- (void)getallDataRequest;
 
 @end
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>849873B3-967A-48F8-9FC7-C078A1C263DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Interview_Application</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CFF87984FC5120220AF0EDC50A26DC8524E06435</key>
+		<string>https://github.com/swathirathan/Interview_Application-_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Interview_Application.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CFF87984FC5120220AF0EDC50A26DC8524E06435</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/swathirathan/Interview_Application-_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CFF87984FC5120220AF0EDC50A26DC8524E06435</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFF87984FC5120220AF0EDC50A26DC8524E06435</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Interview_Application%20_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

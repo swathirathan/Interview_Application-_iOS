@@ -13,18 +13,14 @@
 		082770151B5CC1EC00B602C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082770131B5CC1EC00B602C6 /* Main.storyboard */; };
 		082770171B5CC1EC00B602C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082770161B5CC1EC00B602C6 /* Images.xcassets */; };
 		0827701A1B5CC1EC00B602C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 082770181B5CC1EC00B602C6 /* LaunchScreen.xib */; };
-		082770261B5CC1ED00B602C6 /* Interview_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 082770251B5CC1ED00B602C6 /* Interview_ApplicationTests.m */; };
+		3BA7C6311B5D50E900369046 /* MyCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7C6251B5D50E900369046 /* MyCustomClass.m */; };
+		3BA7C6321B5D50E900369046 /* MyProtocals.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7C6271B5D50E900369046 /* MyProtocals.m */; };
+		3BA7C6331B5D50E900369046 /* MyWebServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7C6291B5D50E900369046 /* MyWebServiceHelper.m */; };
+		3BA7C6341B5D50E900369046 /* Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7C62B1B5D50E900369046 /* Reuse.m */; };
+		3BA7C6351B5D50E900369046 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BA7C62C1B5D50E900369046 /* SVProgressHUD.bundle */; };
+		3BA7C6361B5D50E900369046 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7C62E1B5D50E900369046 /* SVProgressHUD.m */; };
+		542A1FCB1B5D92CF004BD438 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542A1FCA1B5D92CF004BD438 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		082770201B5CC1ED00B602C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08276FFE1B5CC1EC00B602C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 082770051B5CC1EC00B602C6;
-			remoteInfo = Interview_Application;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		082770061B5CC1EC00B602C6 /* Interview_Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview_Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +33,23 @@
 		082770141B5CC1EC00B602C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		082770161B5CC1EC00B602C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		082770191B5CC1EC00B602C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0827701F1B5CC1ED00B602C6 /* Interview_ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Interview_ApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		082770241B5CC1ED00B602C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082770251B5CC1ED00B602C6 /* Interview_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview_ApplicationTests.m; sourceTree = "<group>"; };
+		3BA7C6241B5D50E900369046 /* MyCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomClass.h; sourceTree = "<group>"; };
+		3BA7C6251B5D50E900369046 /* MyCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomClass.m; sourceTree = "<group>"; };
+		3BA7C6261B5D50E900369046 /* MyProtocals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocals.h; sourceTree = "<group>"; };
+		3BA7C6271B5D50E900369046 /* MyProtocals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProtocals.m; sourceTree = "<group>"; };
+		3BA7C6281B5D50E900369046 /* MyWebServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebServiceHelper.h; sourceTree = "<group>"; };
+		3BA7C6291B5D50E900369046 /* MyWebServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebServiceHelper.m; sourceTree = "<group>"; };
+		3BA7C62A1B5D50E900369046 /* Reuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reuse.h; sourceTree = "<group>"; };
+		3BA7C62B1B5D50E900369046 /* Reuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reuse.m; sourceTree = "<group>"; };
+		3BA7C62C1B5D50E900369046 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3BA7C62D1B5D50E900369046 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3BA7C62E1B5D50E900369046 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		542A1FC91B5D92CF004BD438 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		542A1FCA1B5D92CF004BD438 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		082770031B5CC1EC00B602C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0827701C1B5CC1ED00B602C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				082770081B5CC1EC00B602C6 /* Interview_Application */,
-				082770221B5CC1ED00B602C6 /* Interview_ApplicationTests */,
 				082770071B5CC1EC00B602C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				082770061B5CC1EC00B602C6 /* Interview_Application.app */,
-				0827701F1B5CC1ED00B602C6 /* Interview_ApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +78,13 @@
 		082770081B5CC1EC00B602C6 /* Interview_Application */ = {
 			isa = PBXGroup;
 			children = (
+				3BA7C61F1B5D50E900369046 /* MyCustom */,
 				0827700D1B5CC1EC00B602C6 /* AppDelegate.h */,
 				0827700E1B5CC1EC00B602C6 /* AppDelegate.m */,
 				082770101B5CC1EC00B602C6 /* ViewController.h */,
 				082770111B5CC1EC00B602C6 /* ViewController.m */,
+				542A1FC91B5D92CF004BD438 /* DetailsViewController.h */,
+				542A1FCA1B5D92CF004BD438 /* DetailsViewController.m */,
 				082770131B5CC1EC00B602C6 /* Main.storyboard */,
 				082770161B5CC1EC00B602C6 /* Images.xcassets */,
 				082770181B5CC1EC00B602C6 /* LaunchScreen.xib */,
@@ -102,21 +102,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		082770221B5CC1ED00B602C6 /* Interview_ApplicationTests */ = {
+		3BA7C61F1B5D50E900369046 /* MyCustom */ = {
 			isa = PBXGroup;
 			children = (
-				082770251B5CC1ED00B602C6 /* Interview_ApplicationTests.m */,
-				082770231B5CC1ED00B602C6 /* Supporting Files */,
+				3BA7C6241B5D50E900369046 /* MyCustomClass.h */,
+				3BA7C6251B5D50E900369046 /* MyCustomClass.m */,
+				3BA7C6261B5D50E900369046 /* MyProtocals.h */,
+				3BA7C6271B5D50E900369046 /* MyProtocals.m */,
+				3BA7C6281B5D50E900369046 /* MyWebServiceHelper.h */,
+				3BA7C6291B5D50E900369046 /* MyWebServiceHelper.m */,
+				3BA7C62A1B5D50E900369046 /* Reuse.h */,
+				3BA7C62B1B5D50E900369046 /* Reuse.m */,
+				3BA7C62C1B5D50E900369046 /* SVProgressHUD.bundle */,
+				3BA7C62D1B5D50E900369046 /* SVProgressHUD.h */,
+				3BA7C62E1B5D50E900369046 /* SVProgressHUD.m */,
 			);
-			path = Interview_ApplicationTests;
-			sourceTree = "<group>";
-		};
-		082770231B5CC1ED00B602C6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				082770241B5CC1ED00B602C6 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = MyCustom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +140,6 @@
 			productReference = 082770061B5CC1EC00B602C6 /* Interview_Application.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0827701E1B5CC1ED00B602C6 /* Interview_ApplicationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0827702C1B5CC1ED00B602C6 /* Build configuration list for PBXNativeTarget "Interview_ApplicationTests" */;
-			buildPhases = (
-				0827701B1B5CC1ED00B602C6 /* Sources */,
-				0827701C1B5CC1ED00B602C6 /* Frameworks */,
-				0827701D1B5CC1ED00B602C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				082770211B5CC1ED00B602C6 /* PBXTargetDependency */,
-			);
-			name = Interview_ApplicationTests;
-			productName = Interview_ApplicationTests;
-			productReference = 0827701F1B5CC1ED00B602C6 /* Interview_ApplicationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +151,6 @@
 				TargetAttributes = {
 					082770051B5CC1EC00B602C6 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					0827701E1B5CC1ED00B602C6 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 082770051B5CC1EC00B602C6;
 					};
 				};
 			};
@@ -189,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				082770051B5CC1EC00B602C6 /* Interview_Application */,
-				0827701E1B5CC1ED00B602C6 /* Interview_ApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +180,7 @@
 				082770151B5CC1EC00B602C6 /* Main.storyboard in Resources */,
 				0827701A1B5CC1EC00B602C6 /* LaunchScreen.xib in Resources */,
 				082770171B5CC1EC00B602C6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0827701D1B5CC1ED00B602C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3BA7C6351B5D50E900369046 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,28 +192,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				082770121B5CC1EC00B602C6 /* ViewController.m in Sources */,
+				3BA7C6311B5D50E900369046 /* MyCustomClass.m in Sources */,
 				0827700F1B5CC1EC00B602C6 /* AppDelegate.m in Sources */,
+				3BA7C6331B5D50E900369046 /* MyWebServiceHelper.m in Sources */,
+				3BA7C6321B5D50E900369046 /* MyProtocals.m in Sources */,
 				0827700C1B5CC1EC00B602C6 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0827701B1B5CC1ED00B602C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082770261B5CC1ED00B602C6 /* Interview_ApplicationTests.m in Sources */,
+				542A1FCB1B5D92CF004BD438 /* DetailsViewController.m in Sources */,
+				3BA7C6341B5D50E900369046 /* Reuse.m in Sources */,
+				3BA7C6361B5D50E900369046 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		082770211B5CC1ED00B602C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 082770051B5CC1EC00B602C6 /* Interview_Application */;
-			targetProxy = 082770201B5CC1ED00B602C6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		082770131B5CC1EC00B602C6 /* Main.storyboard */ = {
@@ -363,40 +325,6 @@
 			};
 			name = Release;
 		};
-		0827702D1B5CC1ED00B602C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Interview_ApplicationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview_Application.app/Interview_Application";
-			};
-			name = Debug;
-		};
-		0827702E1B5CC1ED00B602C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Interview_ApplicationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview_Application.app/Interview_Application";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,14 +344,7 @@
 				0827702B1B5CC1ED00B602C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0827702C1B5CC1ED00B602C6 /* Build configuration list for PBXNativeTarget "Interview_ApplicationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0827702D1B5CC1ED00B602C6 /* Debug */,
-				0827702E1B5CC1ED00B602C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
